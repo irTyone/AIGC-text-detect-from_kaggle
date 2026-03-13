@@ -1,3 +1,32 @@
-archive (1)/
+archive /
 new_outputs/
 outputs/
+
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 所有 pycache 目录（递归）
+**/__pycache__/
+
+# log 文件
+*.log
+logs/
+*.out
+
+# 常见 Python 生成文件
+*.pyo
+*.pyd
+
+# 虚拟环境（可选）
+venv/
+.env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
